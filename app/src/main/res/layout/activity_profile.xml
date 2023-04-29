@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8EAF6"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:id="@+id/numberUserText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#7986CB"
+                android:gravity="center"
+                android:text="mail_user"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/nameAdminText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#7986CB"
+                android:gravity="center"
+                android:text="name_user"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/numberProductText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#7986CB"
+                android:gravity="center"
+                android:text="surname_user"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/productLabelText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="#5C6BC0"
+            android:text=" La tua Wishlist"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/adminProductRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8EAF6">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

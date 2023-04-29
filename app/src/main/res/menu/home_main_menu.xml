@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/profilo_menu"
+            android:contentDescription="Profilo"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Profilo" />
+        <item
+            android:id="@+id/logout_menu"
+            android:contentDescription="Logout"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:title="Logout" />
+    </group>
+</menu>

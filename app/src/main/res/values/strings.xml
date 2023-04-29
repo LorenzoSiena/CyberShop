@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CyberShopKissv4</string>
+    <string name="action_dummy">dummm</string>
+    <string name="prompt_email">xxx</string>
+    <string name="prompt_password">xxx</string>
+    <string name="login_button">Login</string>
+    <string name="login_text">Welcome User</string>
+    <string name="signup_button">Signup</string>
+    <string name="signup_text">Welcome New User</string>
+
+    <string name="lorem_ipsum">
+        WeLorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry s standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+</resources>
